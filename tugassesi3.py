@@ -1,51 +1,20 @@
-#type data di python
-#type data integer
-alva=12
-print (alva)
-print (type(alfa))
+a=20210801359
+b="Syamsul Bahri"
 
-#type data float
-bepa=12.5
-print (bepa)
-print (type(bepa))
+c="sample operator in python"
+print(a,b)
+print(c)
+nilai1=int(input("nilai 1 = "))
+nilai2=int(input("nilai 2 = "))
+penjumlahan=nilai1+nilai2
 
-#type data complex
-bahasa=12j
-print(bahasa)
-print (type(bahasa))
+pengurangan=nilai1-nilai2
 
-#type data string
-A="hello world"
-print (A)
-print (type(A))
+perkalian=nilai1*nilai2
 
-#type data tuple
-B=("A","B","C")
-C= 12,5,3,1
-print (B,C)
-print (type(B),type (C))
+pembagian=nilai1/nilai2
 
-#print type data lis
-D=["A","B","C"]
-print (D)
-print (type(D))
-
-a=1
-a=2
-print(a)
-
-#type data set
-D= ("Saya","Sedang","Kuliah")
-print (D)
-print (type(D))
-
-#type data dictonary
-D={"nama":"Syamsul","umur":20}
-print = (D)
-print (type(D))
-
-#type data bool
-a=True
-b=False
-print (a,b)
-print (type(a), type(b))
+print("nilai penjumlahan ", penjumlahan)
+print("nilai pengurangan", pengurangan)
+print("nilai perkalian", perkalian)
+print("nilai pembagian", pembagian)
